@@ -1,0 +1,4 @@
+/* pages/Game/Game.wxss */
+page{
+    height: 100%
+}

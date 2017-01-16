@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/Movie/Movie",
+    "pages/Game/Game",
+    "pages/logs/logs",
+    "pages/MovieDetail/MovieDetail",
+    "pages/Seach/Seach"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "MinProDemo",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#000",
+    "selectedColor":"#f60",
+    "backgroundColor":"#fff",
+    "borderStyle":"black",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home_selected.png"
+       
+      },{
+        "pagePath":"pages/Movie/Movie",
+        "text":"Movie",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home_selected.png"
+      },{
+        "pagePath":"pages/Seach/Seach",
+        "text":"Seach",
+        "iconPath":"images/news.png",
+        "selectedIconPath":"images/news_selected.png"
+      },{
+        "pagePath":"pages/Game/Game",
+        "text":"Game",
+         "iconPath":"images/news.png",
+        "selectedIconPath":"images/news_selected.png"
+      }
+    ]
+  }
+}
